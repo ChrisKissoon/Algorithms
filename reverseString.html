@@ -1,0 +1,34 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+      <div id="unreverseString" style="font-size:30px; color:Crimson; font-family: monospace;"></div>
+      <div id="splitString" style="font-size:30px; color:#eb2d53; font-family: monospace;"></div>
+      <div id="reverseString" style="font-size:30px; color:#eb2d53; font-family: monospace;"></div>
+      <div id="JoinString" style="font-size:40px; color:lawngreen; font-family: monospace;"></div>
+    
+    
+    <script>function reverseStr(str){
+        stringVal = str; 
+            document.getElementById("unreverseString").innerHTML = "(Passed Argument)Unreversed: "+stringVal;
+        stringSplit = str.split(""); 
+            document.getElementById("splitString").innerHTML = "(str.split(''))Split into an Array: "+"["+stringSplit+"]";
+        stringReverse = stringSplit.reverse(""); 
+            document.getElementById("reverseString").innerHTML = "(str.reverse(''))Reverse Array: "+"["+stringReverse+"]";
+        stringJoin= stringReverse.join(""); 
+            document.getElementById("JoinString").innerHTML = "(str.join(''))Reverse Array: "+stringJoin;
+       
+       
+
+    
+    
+}
+
+console.log(reverseStr("Chris"));</script>
+    </body>
+</html>
+
+
+
+
