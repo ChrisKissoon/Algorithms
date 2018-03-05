@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+      <h1>Factorialized Number</h1>
+      <div>
+          
+          <xmp>
+       function factorial(num){
+              var count = 1;
+              
+              for(i=1; i <= num; i++){ 
+                               
+                 count = count * i;
+                 
+                
+              }
+              return count;
+        }
+                            
+       factorial(5);
+     
+       </xmp>
+          
+          
+      </div>
+      <p>For Loop cycle - 1*1*2*3*4*5 = <span id="facotrialNum"></span></p>
+     
+     
+    
+    <script>
+        
+        function factorial(num){
+            
+            var count = 1;
+            
+            for(i=1; i <=num; i++){
+                
+                count = count * i;
+                
+                
+            }
+            
+            
+            return count;
+            
+            
+        }
+       document.getElementById("facotrialNum").innerHTML = factorial(5);
+        
+        
+        
+    
+    </script>
+    </body>
+</html>
+
+
+
+

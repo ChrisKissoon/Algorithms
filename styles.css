@@ -1,0 +1,12 @@
+body{
+    font-family:"arial";
+}
+.functionStyle{
+    color:firebrick;
+}
+.defaultColor{
+    color:darkgreen;
+}
+.variableStyle{
+    color:cornflowerblue;
+}
